@@ -6,7 +6,7 @@ def fizzbuzz(number)
   i = 1
   while i <= number
     if i % 3 == 0  && i % 5 == 0
-      puts "#Fizzbuzz"
+      puts "Fizzbuzz"
     elsif i % 3 == 0
       puts "Fizz"
     elsif i % 5 == 0
